@@ -1,0 +1,44 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-italic {
+    font-size: initial;
+}
+
+blockquote {
+    background-color: #aa43a2;
+    color: white;
+    padding: 16px 16px 18px 18px;
+}
+
+p {
+    margin-bottom: 16px;
+}
+  
+p:last-child {
+    margin-bottom: 0;
+    text-align: right;
+}
+  
+a {
+    color: #fec830;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
