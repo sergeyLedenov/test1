@@ -1,0 +1,93 @@
+:root {
+    box-sizing: border-box;
+    font-size: calc(1vw + 0.6em);
+}
+
+body {
+    font-family: "Fira Sans";
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    transition: 0.1s;
+    color: white;
+}
+
+li:hover {
+    color: orange;
+}
+
+.marker {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border: black 2px solid;
+    transform: rotate(45deg);
+    margin-right: 20px;
+}
+
+.menu {
+    width: 300px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    background: #ffe1e1;
+    margin-left: 600px;
+}
+
+.overlay {
+    display: inline-flex;
+    width: 300px;
+    height: 450px;
+    background: gray;
+    transition: 2s;
+}
+
+.overlay {
+    transform: translatex(-90%);
+}
+
+.overlay:hover {
+    transform: translatex(0);
+}
+
+.txt {
+    position: absolute;
+    left: 100px;
+    display: inline-flex;
+    justify-content: flex-start;
+    width: 500px;
+}
+
+p {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    color: white;
+    display: inline-block;
+    transform: rotate(0.25turn);
+    font-size: 15px;
+}
+
+p {
+    transition: 0.75s;
+}
+
+.overlay:hover p {
+    color: rgba(0, 0, 0, 0);
+}
